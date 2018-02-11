@@ -11,6 +11,6 @@ class Dog
   end 
 
   def self.list 
-    all.each{|dog| puts "#{dog.name}"}
+    all.each{|d| puts "#{d.name}"}
   end 
 end 
