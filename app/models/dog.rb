@@ -10,6 +10,10 @@ class Dog
     @@all << self 
   end 
 
+def self.all 
+  @@all
+end 
+  
   def self.list 
     all.each{|d| puts "#{d.name}"}
   end 
